@@ -8,7 +8,7 @@ cola_turnos = Cola()
 cola_1 = Cola()
 cola_2 = Cola()
 
-for i in range(10):
+for i in range(1000):
     dato = [random_character(), str(randint(0, 9)), str(randint(0, 9)), str(randint(0, 9))]
     dato2=''.join(dato)
     print(dato2)
